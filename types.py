@@ -45,8 +45,8 @@ class PromptBuildResult:
     def example(cls) -> "PromptBuildResult":
         return cls(
             full_text="<system> Analyze sentiment </system><user> This movie is great </user>",
-            input_ids=[[101, 200, 300, 400]],  # mock example
-            attention_mask=[[1, 1, 1, 1]],
+            input_ids=torch.tensor([[101, 200, 300, 400]]),  # mock example
+            attention_mask=torch.tensor([[1, 1, 1, 1]]),
             instruction_token_start=1,
             instruction_token_end=3,
             metadata={"note": "example only, not real tokenization"},
@@ -72,8 +72,9 @@ class Channel1Config:
             if layer < 0 or head < 0:
                 raise ValueError("important head indices must be non-negative")
 
-        if not (0 <= self.threshold <= 1):
-            raise ValueError("threshold must be between 0 and 1")
+        if self.threshold is not None:
+            if not (0 <= self.threshold <= 1):
+                raise ValueError("threshold must be between 0 and 1")
 
     @classmethod
     def example(cls) -> "Channel1Config":
