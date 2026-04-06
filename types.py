@@ -61,7 +61,7 @@ class Channel1Config:
 
     model_id: str
     important_heads: list[tuple[int, int]]
-    threshold: float
+    threshold: float | None
     metadata: dict[str, Any] = field(default_factory=dict)
 
     def validate(self) -> None:
