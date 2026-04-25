@@ -1,0 +1,10 @@
+metric,value
+total_examples,200
+clean_examples,70
+attack_examples,130
+unique_task_types,5
+unique_difficulty_types,10
+unique_attack_types,7
+unique_formats,5
+unique_trigger_strengths,4
+unique_context_depths,2
