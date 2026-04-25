@@ -17,9 +17,10 @@ If you are just trying to reproduce the project results, you do **not** need to 
 
 ## Recommended Usage
 
-1. Upload or open `ridr_combined_pipeline_and_evals_patched (1).ipynb` in Google Colab  
-2. Run the notebook cells from top to bottom  
-3. Review the generated metrics, plots, and evaluation tables  
+1. Upload or open `ridr_combined_pipeline_and_evals_patched (1).ipynb` in Google Colab
+2. Add all the files from the data folder into a `/mnt/data/` folder
+3. Run the notebook cells from top to bottom  
+4. Review the generated metrics, plots, and evaluation tables  
 
 ## Repository Notes
 
