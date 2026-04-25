@@ -1,9 +1,0 @@
-metric,value
-total_examples,270
-clean_examples,135
-attack_examples,135
-unique_task_types,5
-unique_attack_types,4
-unique_injection_locations,4
-unique_payload_types,4
-unique_domains,5
