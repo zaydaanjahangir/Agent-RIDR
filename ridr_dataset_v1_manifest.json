@@ -1,0 +1,44 @@
+{
+  "name": "ridr_dataset_v1_deterministic",
+  "total_examples": 270,
+  "clean_examples": 135,
+  "attack_examples": 135,
+  "task_types": [
+    "explanation",
+    "extraction",
+    "question_answering",
+    "summarization",
+    "translation"
+  ],
+  "attack_types": [
+    "generic",
+    "ignore",
+    "none",
+    "redirect"
+  ],
+  "injection_locations": [
+    "end",
+    "middle",
+    "none",
+    "start"
+  ],
+  "trigger_strengths": [
+    "medium",
+    "none",
+    "strong",
+    "weak"
+  ],
+  "payload_types": [
+    "code_task",
+    "nlp_task",
+    "none",
+    "unrelated_factual_task"
+  ],
+  "domains": [
+    "general_science",
+    "history",
+    "history_culture",
+    "history_science",
+    "science"
+  ]
+}
