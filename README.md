@@ -1,5 +1,7 @@
 ## Quick Start
 
+> current project status: [Attention Tracker](https://arxiv.org/abs/2411.00348) and [TaskTracker](https://arxiv.org/abs/2406.00799) papers have been implemented in a unified flow in a notebook setting, next major step is integrating with LangChain.
+
 The easiest way to run the full Agent-RIDR pipeline is to open and execute:
 
 **`ridr_combined_pipeline_and_evals_patched (1).ipynb`**
